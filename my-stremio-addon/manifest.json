@@ -1,0 +1,16 @@
+{
+  "id": "com.mycloud.anime",
+  "version": "1.0.0",
+  "name": "My Anime Cloud",
+  "description": "Personal VOD library for 1,000+ Series",
+  "resources": ["catalog", "meta", "stream"],
+  "types": ["series"],
+  "idPrefixes": ["tt_"],
+  "catalogs": [
+    {
+      "type": "series",
+      "id": "my_anime_catalog",
+      "name": "Cloud Anime Library"
+    }
+  ]
+}
